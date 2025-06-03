@@ -5,6 +5,7 @@ Ao criar uma tabela, você define suas colunas e os tipos de dados que cada colu
 
 ## Sintaxe Básica
 
+```sql
 CREATE TABLE Alunos (
     ID INT PRIMARY KEY,         -- Chave primária: identificador único, não nulo
     Nome VARCHAR(100) NOT NULL, -- Nome do aluno, não pode ser nulo
