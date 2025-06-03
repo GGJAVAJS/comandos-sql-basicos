@@ -25,4 +25,6 @@ Dependências: Se outras tabelas tiverem chaves estrangeiras (FOREIGN KEY) refer
 
 Backup: Sempre tenha um backup recente do seu banco de dados antes de executar operações DROP TABLE em ambientes importantes, especialmente em produção.
 
-Alternativa para Limpar Dados: Se você quer apenas remover todos os dados de uma tabela, mas manter sua estrutura, considere usar DELETE FROM nome_da_tabela; (mais lento, logado, dispara gatilhos) ou TRUNCATE TABLE nome_da_tabela; (mais rápido, geralmente menos logado, não dispara gatilhos de linha).
+Alternativa para Limpar Dados: Se você quer apenas remover todos os dados de uma tabela, mas manter sua estrutura,
+considere usar DELETE FROM nome_da_tabela; (mais lento, logado, dispara gatilhos)
+ou TRUNCATE TABLE nome_da_tabela; (mais rápido, geralmente menos logado, não dispara gatilhos de linha).
