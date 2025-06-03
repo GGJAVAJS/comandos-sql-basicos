@@ -35,4 +35,4 @@ Embora o SQL seja uma linguagem padronizada (ANSI SQL), cada SGBD pode ter suas 
 Sugestões, correções e melhorias são bem-vindas! Sinta-se à vontade para abrir uma *Issue* ou um *Pull Request*.
 
 ---
-*Comece sua jornada SQL explorando as pastas acima!*
+
