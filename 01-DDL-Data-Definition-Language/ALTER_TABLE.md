@@ -12,12 +12,13 @@ O comando `ALTER TABLE` é usado para modificar a estrutura de uma tabela existe
 A sintaxe do `ALTER TABLE` varia dependendo da ação que você deseja realizar.
 
 ### 1. Adicionar uma Coluna
-
+```sql
 ALTER TABLE Alunos
-ADD Telefone VARCHAR(20); -- Adiciona a coluna Telefone, que pode ser nula
+ADD Telefone VARCHAR(20); -- Adiciona a coluna Telefone, que pode ser nula;
+
 
 ### 2. Remover (DROP) uma Coluna
-
+```sql
 ALTER TABLE nome_da_tabela
 DROP COLUMN nome_da_coluna;
 
