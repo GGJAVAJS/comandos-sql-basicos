@@ -1,7 +1,3 @@
-
----
----
-
 ### `02-DML-Data-Manipulation-Language/README.md`
 
 # 02 - DML (Data Manipulation Language)
