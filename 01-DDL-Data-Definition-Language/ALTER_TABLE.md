@@ -42,7 +42,8 @@ ALTER TABLE nome_da_tabela
 ALTER COLUMN nome_da_coluna TYPE novo_tipo_de_dado; -- Para tipo (PostgreSQL)
 
 ALTER TABLE nome_da_tabela
-ALTER COLUMN nome_da_coluna novo_tipo_de_dado [NULL | NOT NULL]; -- Para tipo e nulidade (SQL Server)
+ALTER COLUMN nome_da_coluna novo_tipo_de_dado [NULL | NOT NULL];
+-- Para tipo e nulidade (SQL Server)
 Exemplo: Alterar o tipo da coluna Telefone para VARCHAR(15) na tabela Alunos e torná-la NOT NULL.
 -- Exemplo genérico (verificar sintaxe específica do SGBD)
 -- Para MySQL:
@@ -67,7 +68,9 @@ content_copydownload
 
 ALTER TABLE nome_da_tabela
 ADD CONSTRAINT nome_da_restricao TIPO_DA_RESTRIÇÃO (coluna(s)) [referências];
+
 Exemplo: Adicionar uma chave estrangeira. Suponha que temos uma tabela Cursos com CursoID como chave primária.
+
 -- Primeiro, adicionamos a coluna CursoID na tabela Alunos, se não existir
 ALTER TABLE Alunos
 ADD CursoID INT;
