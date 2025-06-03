@@ -16,16 +16,27 @@ condicao: Uma expressão lógica que resulta em TRUE, FALSE ou UNKNOWN para cada
 
 Operadores Comuns na Cláusula WHERE
 Operador	     Descrição	                                Exemplo
+
 =	             Igual a	                                WHERE preco = 10.50
+
 <> ou !=	     Diferente de (Não igual a)	                WHERE status <> 'Concluído'
+
 >	             Maior que	                                WHERE quantidade > 100
+
 <	             Menor que	                                WHERE idade < 18
+
 >=	             Maior ou igual a	                        WHERE saldo >= 0
+
 <=	             Menor ou igual a	                        WHERE desconto <= 0.15
+
 BETWEEN	         Entre um valor inclusivo e outro	        WHERE data BETWEEN '2023-01-01' AND '2023-12-31'
+
 LIKE	         Procura por um padrão (com % e _)	        WHERE nome LIKE 'Jo%'
+
 IN	             Corresponde a qualquer valor em uma lista	WHERE pais IN ('Brasil', 'Portugal')
+
 IS NULL	         Verifica se o valor é NULO	                WHERE email IS NULL
+
 IS NOT NULL	     Verifica se o valor NÃO é NULO             WHERE telefone IS NOT NULL
 
 Operadores Lógicos
