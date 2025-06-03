@@ -14,9 +14,12 @@ Esta ação é **IRREVERSÍVEL** e remove a estrutura da tabela, todos os dados 
 DROP TABLE nome_da_tabela;
 
 Considerações e Advertências
-PERMANENTE: Mais uma vez, a exclusão de uma tabela com DROP TABLE é geralmente permanente e não pode ser desfeita facilmente (a menos que você tenha backups).
+PERMANENTE: Mais uma vez, a exclusão de uma tabela com DROP TABLE é geralmente permanente
+e não pode ser desfeita facilmente (a menos que você tenha backups).
 
-Dependências: Se outras tabelas tiverem chaves estrangeiras (FOREIGN KEY) referenciando a tabela que você está tentando remover, o SGBD pode impedir a operação DROP TABLE para manter a integridade referencial. Você pode precisar remover essas restrições de chave estrangeira primeiro, ou usar opções como CASCADE (se suportado e se for realmente o que você quer, pois isso pode remover objetos dependentes).
+Dependências: Se outras tabelas tiverem chaves estrangeiras (FOREIGN KEY) referenciando a tabela que você está tentando remover,
+o SGBD pode impedir a operação DROP TABLE para manter a integridade referencial. Você pode precisar remover essas restrições de chave estrangeira primeiro,
+ou usar opções como CASCADE (se suportado e se for realmente o que você quer, pois isso pode remover objetos dependentes).
 
 -- Exemplo com CASCADE (USAR COM EXTREMO CUIDADO!)
 -- A sintaxe exata e o comportamento do CASCADE podem variar entre SGBDs.
