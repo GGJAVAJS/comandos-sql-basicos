@@ -15,7 +15,7 @@ Os comandos e conceitos estão organizados nas seguintes seções:
 
 1.  **[01-DDL-Data-Definition-Language](./01-DDL-Data-Definition-Language/)**: Comandos para definir e gerenciar a estrutura do banco de dados (ex: `CREATE TABLE`, `ALTER TABLE`).
 2.  **[02-DML-Data-Manipulation-Language](./02-DML-Data-Manipulation-Language/)**: Comandos para manipular dados (ex: `INSERT`, `SELECT`, `UPDATE`, `DELETE`).
-3.  **[03-Consultas-Basicas-Clauses](./03-Consultas-Basicas-Clauses/)**: Cláusulas essenciais para refinar suas consultas (ex: `WHERE`, `ORDER BY`).
+3.  **[03-Consultas-Basicas-Clauses](./Consultas-Basicas-Clauses/)**: Cláusulas essenciais para refinar suas consultas (ex: `WHERE`, `ORDER BY`).
 4.  **[04-Funcoes-Agregadas-e-Agrupamento](./04-Funcoes-Agregadas-e-Agrupamento/)**: Funções para realizar cálculos sobre conjuntos de dados (ex: `COUNT`, `SUM`, `GROUP BY`).
 5.  **[05-Juncoes-JOINs](./05-Juncoes-JOINs/)**: Como combinar dados de múltiplas tabelas.
 6.  **[06-Outros-Conceitos-Basicos](./06-Outros-Conceitos-Basicos/)**: Comentários, tratamento de nulos e tipos de dados.
