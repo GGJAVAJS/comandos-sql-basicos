@@ -19,7 +19,7 @@ ADD Telefone VARCHAR(20); -- Adiciona a coluna Telefone, que pode ser nula;
 
 
 ### 2. Remover (DROP) uma Coluna
-```sql
+
 ALTER TABLE nome_da_tabela
 DROP COLUMN nome_da_coluna;
 
