@@ -30,5 +30,3 @@ Comandos DML (especialmente `INSERT`, `UPDATE`, `DELETE`) geralmente operam dent
 
 Entender transações é crucial para garantir a consistência e integridade dos dados.
 
----
-[Voltar para o Início](../../README.md) | [Próximo: INSERT INTO](./INSERT_INTO.md)
