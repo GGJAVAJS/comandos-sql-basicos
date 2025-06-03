@@ -1,5 +1,3 @@
-### `02-DML-Data-Manipulation-Language/README.md`
-
 # 02 - DML (Data Manipulation Language)
 
 A DML, ou Linguagem de Manipulação de Dados, é um subconjunto de comandos SQL usado para gerenciar (inserir, consultar, atualizar e excluir) os dados dentro das tabelas do banco de dados.
