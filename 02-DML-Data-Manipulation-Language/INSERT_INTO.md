@@ -13,7 +13,7 @@ Existem duas formas principais de usar o `INSERT INTO`:
 INSERT INTO nome_da_tabela (coluna1, coluna2, coluna3, ...)
 VALUES (valor1, valor2, valor3, ...);
 
-***2. Adicionando Valores para Todas as Colunas (na ordem da tabela):
+2. Adicionando Valores para Todas as Colunas (na ordem da tabela):
 Se você está fornecendo valores para todas as colunas da tabela, na mesma ordem em que foram definidas, você pode omitir os nomes das colunas. Não recomendado para scripts de longa duração devido à fragilidade à mudança de estrutura da tabela.
 
 INSERT INTO nome_da_tabela
