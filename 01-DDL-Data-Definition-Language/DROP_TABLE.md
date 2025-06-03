@@ -23,7 +23,8 @@ Dependências: Se outras tabelas tiverem chaves estrangeiras (FOREIGN KEY) refer
 -- Em PostgreSQL, por exemplo:
 -- DROP TABLE nome_da_tabela CASCADE;
 
-Backup: Sempre tenha um backup recente do seu banco de dados antes de executar operações DROP TABLE em ambientes importantes, especialmente em produção.
+Backup: Sempre tenha um backup recente do seu banco de dados
+antes de executar operações DROP TABLE em ambientes importantes, especialmente em produção.
 
 Alternativa para Limpar Dados: Se você quer apenas remover todos os dados de uma tabela, mas manter sua estrutura,
 considere usar DELETE FROM nome_da_tabela; (mais lento, logado, dispara gatilhos)
