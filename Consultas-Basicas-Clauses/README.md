@@ -1,4 +1,4 @@
-# 03 - Consultas Básicas: Cláusulas Essenciais
+# 03-Consultas Básicas: Cláusulas Essenciais
 
 Depois de aprender a selecionar dados com `SELECT ... FROM`, o próximo passo é refinar suas consultas para obter exatamente a informação que você precisa. As cláusulas desta seção ajudam a filtrar, ordenar e formatar os resultados das suas consultas.
 
